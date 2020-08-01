@@ -238,10 +238,3 @@ if __name__ == "__main__":
             Optimizer = optim.Adam(deep_net.parameters(), lr=learning_rate, weight_decay=1e-6) 
 
             test(0, act)
-
-
-            
-        
-
-
-
