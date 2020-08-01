@@ -239,18 +239,5 @@ if __name__ == "__main__":
             Optimizer = optim.Adam(eegnet.parameters(), lr=learning_rate, weight_decay=1e-6)   # Optimizer
 
             test(0, act)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+            
